@@ -4,15 +4,14 @@
 package ejercicio3;
 public class Circulo {
     private double radio;
-    private double PI = 3.14;
+    private static final double PI = 3.14;
     
     public Circulo () {
         
     }
     
-    public Circulo (double r, double p) {
-        radio = r;
-        PI = p;        
+    public Circulo (double r) {
+        radio = r;       
     }
     
     public double getRadio (){
